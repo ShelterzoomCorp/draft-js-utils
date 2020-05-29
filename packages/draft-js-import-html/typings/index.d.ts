@@ -12,13 +12,13 @@ declare module 'draft-js-import-html' {
     };
 
     export type InlineCreators = {
-        Style: (style: string) => Style;
+        Style: (style: string | string[]) => Style;
         Entity: (type: string, data?: Object) => draftjs.EntityInstance;
     };
 
     export type Style = {
         type: 'STYLE';
-        style: string;
+        style: string | string[];
     };
 
     export interface Options {
