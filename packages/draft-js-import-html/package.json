@@ -1,5 +1,5 @@
 {
-  "name": "draft-js-import-html",
+  "name": "@shelterzoom/draft-js-import-html",
   "version": "1.4.1",
   "description": "DraftJS: Import HTML to ContentState",
   "main": "lib/main.js",
@@ -17,7 +17,7 @@
     "build": "yarn build:cjs && yarn build:esm"
   },
   "dependencies": {
-    "draft-js-import-element": "^1.4.0"
+    "@shelterzoom/draft-js-import-element": "1.4.0"
   },
   "peerDependencies": {
     "draft-js": ">=0.10.0",

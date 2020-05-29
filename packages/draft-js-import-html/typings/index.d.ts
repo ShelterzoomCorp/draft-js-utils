@@ -1,6 +1,6 @@
 /// <reference types="draft-js" />
 
-declare module 'draft-js-import-html' {
+declare module '@shelterzoom/draft-js-import-html' {
     import draftjs = require('draft-js');
 
     export type CustomBlockFn = (element: Element) => undefined | null | CustomBlockObject;

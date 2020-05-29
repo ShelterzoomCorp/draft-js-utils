@@ -1,10 +1,10 @@
 // @flow
 
-import {stateFromElement} from 'draft-js-import-element';
+import {stateFromElement} from '@shelterzoom/draft-js-import-element';
 import parseHTML from './parseHTML';
 
 import type {ContentState} from 'draft-js';
-import type {ElementStyles, CustomBlockFn, CustomInlineFn} from 'draft-js-import-element';
+import type {ElementStyles, CustomBlockFn, CustomInlineFn} from '@shelterzoom/draft-js-import-element';
 
 type Options = {
   parser?: (html: string) => Element;

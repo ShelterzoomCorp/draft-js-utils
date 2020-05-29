@@ -1,5 +1,5 @@
 {
-  "name": "draft-js-import-element",
+  "name": "@shelterzoom/draft-js-import-element",
   "version": "1.4.0",
   "description": "DraftJS: Import Element to ContentState",
   "main": "lib/main.js",
